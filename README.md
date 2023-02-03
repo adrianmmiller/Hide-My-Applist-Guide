@@ -4,9 +4,6 @@
 
 [B]What does Hide My Applist do, or what does it aim to do?[/B]
 
-In the simplest terms it aims to stop one app detecting a list of other installed apps, most notably it can often help stop your say banking app detecting if you have any of the apps it considers harmful on their apps on internal blacklist - like the magisk app, or like one of found the other day, the banking app wouldnt run with Teamviewer installed as it flagged this as riskware. Android 13 was flagged to have this functionality inbuilt, but its early days yet to see whether this is indeed in effect and effectual
-
-
 [U][SIZE=3][B][U]Pre-requisites:[/U][/B][/SIZE][/U]
 
 [LIST]
@@ -50,43 +47,42 @@ In the simplest terms it aims to stop one app detecting a list of other installe
 
 
 
-[B][U]Method:[/U][/B]
+**Method:**
 
-[LIST]
-[*][B]Install Lsposed[/B]
-[/LIST]
+
+- **Install Lsposed**
+
 From your launcher, open your Magisk Manager app (yours is hopefully renamed as mentioned earlier) and switch to the Modules tab (at bottom), then tap Install From Storage at the top of screen.
 
-[ATTACH type="full" alt="Lsposed Install 2.jpg"]5763533[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA1.jpg?raw=true)
 
 On the next screen, select the directory where you stored the Lsposed zip, and then tap it
 
-[ATTACH type="full" alt="Lsposed Install 3.jpg"]5763535[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA2.jpg?raw=true)
 
-The Lsposed module will now install, and when complete you should tap [B]Reboot[/B] to reboot your device
+The Lsposed module will now install, and when complete you should tap **Reboot** to reboot your device
 
-[ATTACH type="full" alt="Lsposed Install 4.jpg"]5763537[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA3.jpg?raw=true)
 
 After your device reboots, you will see a prompt to add a shortcut to your launcher, you can manually place it, but i usually just tap Add Automatically, and let it sort it out, for me, as my main launcher screen is full, this overflows onto a second launcher screen...
 
-[ATTACH type="full" alt="Lsposed Install 5.jpg"]5763539[/ATTACH][ATTACH type="full" alt="Lsposed Install 6.jpg"]5763541[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA4.jpg?raw=true)
 
 
 
-[LIST]
-[*][B]Install HMA[/B]
-[/LIST]
+-**Install HMA**
+
 Select the directory where you stored the HMA apk, and install it
 
-[ATTACH type="full" alt="Hide My Applist Install .jpg"]5763543[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA5.jpg?raw=true)
 
 After install is complete, you should see a notification in the notification bar, pull down your notification bar and tap the [B]Xposed Module Is Not Activated Yet[/B] notification
 
-[ATTACH type="full" alt="Hide My Applist - Lsposed Not Activated.jpg"]5763545[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA6.jpg?raw=true)
 
 When the HMA app opens, tap to toggle the [B]Enable Module[/B] toggle to [B]On[/B], make sure the [B]ONLY[/B] scope that HMA is applied to is [B]System Framework[/B], then tap the gear icon towards bottom right to go to HMA's Settings
 
-[ATTACH type="full" alt="Hide My Applist - Lsposed Not Activated 2.jpg"]5766505[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA7.jpg?raw=true)
 
 
 
@@ -95,15 +91,15 @@ When the HMA app opens, tap to toggle the [B]Enable Module[/B] toggle to [B]On[/
 [/LIST]
 When the Settings screen opens, tap on [B]Template Manage[/B]
 
-[ATTACH type="full" alt="Hide My Applist - Not Activated - Template.jpg"]5763549[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA8.jpg?raw=true)
 
 On the next screen tap [B]Create A Blacklist Template[/B]
 
-[ATTACH type="full" alt="Hide My Applist - Template Manager.jpg"]5763551[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA9.jpg?raw=true)
 
 On the following screen, type [B]root[/B] into the [B]Template Name[/B] box, then tap [B]Edit List[/B], just below and to the right
 
-[ATTACH type="full" alt="Hide My Applist - Template Manager 3.jpg"]5763557[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA10.jpg?raw=true)
 
 
 Selecting root, HMA and lsposed apps...
@@ -117,7 +113,7 @@ On the following screen, you'll see a list of all your apps, select the followin
 
 When youre done, press the back navigation key, swipe back or tap the back arrow in top left to return to main HMA screen
 
-[ATTACH type="full" alt="Hide My Applist - Root Template - Apps.jpg"]5763561[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA11.jpg?raw=true)
 
 
 
@@ -127,7 +123,7 @@ When youre done, press the back navigation key, swipe back or tap the back arrow
 
 From the main HMA Settings menu, tap [B]App Manage[/B]
 
-[ATTACH type="full" alt="Hide My Applist - Not Activated - App Manager.jpg"]5763563[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA12.jpg?raw=true)
 
 On the following screen, you'll see a list of all your apps, select any which you want to hide root, HMA and any xposed/lsposed modules from, by tapping to tick them
 
@@ -145,7 +141,7 @@ For each app you add, do the following:
 [*]Under [B]Template Config[/B] (toward bottom) tap [B]Using 0 Template[/B]
 [/LIST]
 
-[ATTACH type="full" alt="Hide My Applist - App Manager 2.jpg"]5763565[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA13.jpg?raw=true)
 
 On the popup window that appears:
 [LIST]
@@ -153,11 +149,11 @@ On the popup window that appears:
 [*]Tap [B]OK[/B] to close the popup window
 [/LIST]
 
-[ATTACH type="full" alt="Hide My Applist - App Manager 4.jpg"]5763567[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA14.jpg?raw=true)
 
 You should now see a screen similar to this for the app you just configured
 
-[ATTACH type="full" alt="Hide My Applist - App Manager 6.jpg"]5763569[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA15.jpg?raw=true)
 
 When youre done, press back navigation key, swipe back or tap the back arrow in top left to return to app list, and repeat the above few steps for each app you wish to hide root, HMA and any xposed/lsposed modules from
 
@@ -169,11 +165,11 @@ Reboot your device to activate HMA and the configuration you just setup
 
 After reboot has completed, launching HMA from your launcher
 
-[ATTACH type="full" alt="Hide My Applist - Launcher.jpg"]5763711[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA16.jpg?raw=true)
 
 You should show the following screen, showing the status as Activated
 
-[ATTACH type="full" alt="Hide My Applist - Activated.jpg"]5763571[/ATTACH]
+![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA17.jpg?raw=true)
 
 
 [B]Note:[/B] Any time you make a configuration change in HMA, you need to reboot for it to take effect
