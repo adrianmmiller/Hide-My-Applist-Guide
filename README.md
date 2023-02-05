@@ -14,9 +14,11 @@ functionality inbuilt, but its early days yet to see whether this is indeed in e
 
 ### Pre-requisites:
 
-- A ROM with a working Magisk root installation (see links to threads for official Magisk and Magisk Delta below), this means ideally you should have a passing Integrity check (successor to SafetyNet) - currently for most people this requires:[/SIZE]
+- A ROM with a working Magisk root installation (see links to threads for official Magisk and Magisk Delta below), this means ideally you should have a passing Integrity check (successor to SafetyNet) - currently for most people this requires:
 - **Universal SafetyNet Fix Official** from **kdrag0n** from https://github.com/kdrag0n/safetynet-fix  or alternately **2.3.1 Mod 2.1** from **Displax** https://github.com/Displax/safetynet-fix/releases (depending on which version is later and more effective on your device - if in doubt, try the kdrag0n offical first). 
-Note: At time of writing (6/2/22023 DD/MM/YYYY) Kdrag0n's offical USNF2.4.0 does have some issues, if you experience any, please use Displax's 2.3.1 Mod 2.1 instead.
+
+   **Please Note: At time of writing (6/2/22023 DD/MM/YYYY)** Kdrag0n's offical USNF 2.4.0 does have some issues, if you experience any, please use Displax's 2.3.1 Mod 2.1 instead.
+
 - If running **Magisk official**, **Shamiko** with **Enforce Deny List** toggled **OFF** from https://github.com/LSPosed/LSPosed.github.io/releases
 - If running **Magisk Delta**, check with https://forum.xda-developers.com/t/discussion-magisk-delta-another-unofficial-third-party-magisk-fork.4460555/ for best hiding method
 - A renamed Magisk Manager app - i rename mine App, because im lazy and it puts it at the top of the App list when im adding it to HMA both during setup, and after restoring HMA config after a new ROM flash/factory reset, and HMA install
@@ -210,13 +212,21 @@ The other well known detection tools are:
    Now that youve been warned, should you wish to enable Vold App Data Isolation:
    
    From the HMA home screen: 
+   
+   ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA18.jpg?raw=true)
+   
    - Tap **Settings** (gear icon in bottom right) 
    - Scroll to **Module** section 
-   - Tap **Data Isolation** 
+   - Tap **Data Isolation**
+   
    ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/VOLD1.jpg?raw=true)
+   
    - Tap to toggle **Vold App Data Isolation** to **ON**
+   
    ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/VOLD2.jpg?raw=true)
+   
    - Tap the back navigation key, swipe back or tap the back arrow in top left to return to main HMA screen
+   
    - Reboot device 
 
 ---
