@@ -136,14 +136,14 @@ functionality inbuilt, but its early days yet to see whether this is indeed in e
       - Tap the toggle to the right of **Enable Hide** to enable hiding
       - Under **Template Config** (toward bottom) tap **Using 0 Template**
 
-   ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA14.jpg?raw=true)
+         ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA14.jpg?raw=true)
 
-   On the popup window that appears:
+      On the popup window that appears:
 
-   - Tap the checkbox next to **root** to select the root blacklist template
-   - Tap **OK** to close the popup window
+      - Tap the checkbox next to **root** to select the root blacklist template
+      - Tap **OK** to close the popup window
    
-   ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA15.jpg?raw=true)
+         ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA15.jpg?raw=true)
 
    You should now see a screen similar to this for the app you just configured
 
