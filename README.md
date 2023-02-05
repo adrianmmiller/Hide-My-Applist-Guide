@@ -192,9 +192,9 @@ The other well known detection tools are:
 
 - **Security Check - Device Compliance** from https://play.google.com/store/apps/details?id=com.hce.compliance.checker (Google Play)
 
-   **Please Note:**
-   - After adding apps to the root blacklist or other configuration changes, you need to not only reboot to allow the changes to take effect, but also to force close and clear data for any of the above testing apps before testing again.
-   - The results of the tests are beyond the scope of this guide, and best discussed in the main Magisk threads, not here, as this is merely a guide for HMA, and as such would be the worst place to have your posts seen due to the low volume of traffic. Also please do not PM me about test results, all such PM's will go directly to /dev/null/
+**Please Note:**
+- After adding apps to the root blacklist or other configuration changes, you need to not only reboot to allow the changes to take effect, but also to force close and clear data for any of the above testing apps before testing again.
+- The results of the tests are beyond the scope of this guide, and best discussed in the main Magisk threads, not here, as this is merely a guide for HMA, and as such would be the worst place to have your posts seen due to the low volume of traffic. Also please do not PM me about test results, all such PM's will go directly to /dev/null/
 
 ---
 
