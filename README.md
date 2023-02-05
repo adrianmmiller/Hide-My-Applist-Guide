@@ -213,7 +213,7 @@ The other well known detection tools are:
    
    From the HMA home screen: 
    
-   ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA18.jpg?raw=true)
+   ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA18b.jpg?raw=true)
    
    - Tap **Settings** (gear icon in bottom right) 
    - Scroll to **Module** section 
