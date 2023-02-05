@@ -107,7 +107,7 @@ Note: At time of writing (6/2/22023 DD/MM/YYYY) Kdrag0n's offical USNF2.4.0 does
    - Any Xsposed/LSposed apps
 
 
-   When youre done, press the back navigation key, swipe back or tap the back arrow in top left to return to main HMA screen
+   When youre done, tap the back navigation key, swipe back or tap the back arrow in top left to return to main HMA screen
 
    ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA12.jpg?raw=true)
 
@@ -147,9 +147,9 @@ Note: At time of writing (6/2/22023 DD/MM/YYYY) Kdrag0n's offical USNF2.4.0 does
 
    ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/HMA16.jpg?raw=true)
 
-   When youre done, press back navigation key, swipe back or tap the back arrow in top left to return to app list, and repeat the above few steps for each app you wish to hide root, HMA and any xposed/lsposed modules from
+   When youre done, tap back navigation key, swipe back or tap the back arrow in top left to return to app list, and repeat the above few steps for each app you wish to hide root, HMA and any xposed/lsposed modules from
 
-   When youre done selecting all apps you wish to hide root, HMA and any xposed/lsposed modules from, press the back navigation key, swipe back or tap the back arrow in top left to return to main HMA screen
+   When youre done selecting all apps you wish to hide root, HMA and any xposed/lsposed modules from, tap the back navigation key, swipe back or tap the back arrow in top left to return to main HMA screen
    
 - **Finalizing And 1st Boot**   
 
@@ -200,26 +200,24 @@ The other well known detection tools are:
 
 - **HMA is still dectected by X detection app:**
 
-   You may need to activate Vold App Data Isolation - Be aware a couple of people have reported toggling this on has ended in tears for them, these people though have non-standard setups, using modules and apps which i and most people dont run and wouldnt recommend, and so therefore their experinces may be due to changes they have made to their systemns outside the scope of this guide. 
+   You may need to activate Vold App Data Isolation - Be aware a couple of people have reported that toggling this on has ended in tears for them, these people though have non-standard setups, using modules and apps which i and most people dont run and wouldnt recommend, and so therefore their experiences may be due to changes they have made to their systemns outside the scope of this guide. 
    
    The following issues were highlighted, thanks **stillhard**
-      https://github.com/Dr-TSNG/Hide-My-Applist/issues/253
-      https://github.com/Dr-TSNG/Hide-My-Applist/issues/247
+   - https://github.com/Dr-TSNG/Hide-My-Applist/issues/253
+   - https://github.com/Dr-TSNG/Hide-My-Applist/issues/247
    
 
-   Now that youve been wanred, shoudlk you wish to enable Vold App Data Isolation:
+   Now that youve been warned, should you wish to enable Vold App Data Isolation:
    
    From the HMA home screen: 
-      - Tap **Setting** (gear icon in bottom right) 
-      - Scroll to **Module** section 
-      - Tap **Data Isolation** 
-      
-      
-      - Tap to toggle **Vold App Data Isolation** to **ON**
-
-
-      - Reboot device 
-
+   - Tap **Settings** (gear icon in bottom right) 
+   - Scroll to **Module** section 
+   - Tap **Data Isolation** 
+   ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/VOLD1.jpg?raw=true)
+   - Tap to toggle **Vold App Data Isolation** to **ON**
+   ![](https://github.com/adrianmmiller/Hide-My-Applist-Guide/blob/main/VOLD2.jpg?raw=true)
+   - Tap the back navigation key, swipe back or tap the back arrow in top left to return to main HMA screen
+   - Reboot device 
 
 ---
 
@@ -245,7 +243,7 @@ Restore:
    - Tap **root** template
    - Tap **Edit List** (the first one) to the right of **X Apps Invisible**
    - Scroll to find your renamed Magisk Managers app and select it
-   - Press the back navigation key, swipe back or tap the back arrow in top left to return to main HMA screen
+   - Tap the back navigation key, swipe back or tap the back arrow in top left to return to main HMA screen
    - Close out from HMA
    - Reboot your device to activate HMA and the configuration you just restored
 
