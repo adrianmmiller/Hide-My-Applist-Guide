@@ -259,6 +259,6 @@ Restore:
 
 ---
 
-### Reporting Issues Or Providing Feddback On The Guide:
+### Reporting Issues Or Providing Feedback On The Guide:
 
 Please report any issues you may find with the guide above via the Issues tab
