@@ -261,4 +261,4 @@ Restore:
 
 ### Reporting Issues Or Providing Feedback On The Guide:
 
-Please report any issues you may find with the guide above via the Issues tab
+Please report any issues you may find with the guide above via the [Issues](https://github.com/adrianmmiller/Hide-My-Applist-Guide/issues) tab
