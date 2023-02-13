@@ -17,7 +17,7 @@ functionality inbuilt, but its early days yet to see whether this is indeed in e
 - A ROM with a working Magisk root installation (see links to threads for official Magisk and Magisk Delta below), this means ideally you should have a passing Integrity check (successor to SafetyNet) - currently for most people this requires:
 - **Universal SafetyNet Fix Official** from **kdrag0n** from https://github.com/kdrag0n/safetynet-fix  or alternately **2.3.1 Mod 2.1** (or better) from **Displax** https://github.com/Displax/safetynet-fix/releases (depending on which version is later and more effective on your device - if in doubt, try the kdrag0n offical first). 
 
-   **Please Note: At time of writing (6/2/22023 DD/MM/YYYY)** Kdrag0n's offical USNF 2.4.0 does have some issues, if you experience any, please use Displax's 2.3.1 Mod 2.1 instead.
+   **Please Note: At time of writing (6/2/22023 DD/MM/YYYY)** Kdrag0n's offical USNF 2.4.0 does have some issues, if you experience any, please use Displax's 2.3.1 Mod 2.1 (or better) instead.
 
 - If running **Magisk official**, **Shamiko** with **Enforce Deny List** toggled **OFF** from https://github.com/LSPosed/LSPosed.github.io/releases
 - If running **Magisk Delta**, check with https://forum.xda-developers.com/t/discussion-magisk-delta-another-unofficial-third-party-magisk-fork.4460555/ for best hiding method
