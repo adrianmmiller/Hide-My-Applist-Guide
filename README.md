@@ -3,7 +3,7 @@ This just a quick guide to hopefully make it a little easier for people new to H
 
 **Note:** This guide developed and tested on Adroid 12 & 13.
 
-**Warning:** HMA is NOT currently compatible with Android 14 Beta. One person has tried it and opening HMA on it will apparently cause an instant reboot. Their report was taken as informative, as clearly i cant solve this, so please, no more issue reports about my guide under beta or untested Android versions. Or issue reports about HMA, the relevant github for HMA issues is [here](https://github.com/Dr-TSNG/Hide-My-Applist/)
+**Warning:** HMA is NOT currently compatible with Android 14 Beta. One person has tried it and opening HMA on it will apparently cause an instant reboot. Their report was taken as informative, as clearly i cant solve this, so please, no more issue reports about my guide under beta or untested Android versions. Also, please no issue reports about HMA, the relevant github for HMA issues is [here](https://github.com/Dr-TSNG/Hide-My-Applist/)
 
 
 ### What does Hide My Applist do, or what does it aim to do?:
